@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" style="background: var(--dark);">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Matchloader</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/bootstrap/css/bootstrap.min.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/styles.min.css') }}" />
+</head>
+
+<body style="background: var(--gray-dark);">
+    <h1 style="background: #282d32;color: var(--light);padding: 20px;text-align: center;"><strong>Matchloader</strong></h1>
+    {% block content %}{% endblock %}
+    <footer class="footer-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Developer</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/robbe.doeven">Robbe Doeven</a></li>
+                        <li><a href=" mailto:doeven.robbe@gmail.com?subject=Matchloader%20-%20%5Bsubject%5D ">doeven.robbe@gmail.com</a></li>
+                        <li><a href="https://doeven.be"></a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="https://www.kvsoo.be/">Kvsoo</a></li>
+                        <li><a href="https://rbfa.okta.com/">e-kickoff</a></li>
+                        <li><a href="https://www.rbfa.be/nl">RBFA</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3></h3>
+                    <p style="font-size: 20px;">Having one child makes you a parent; having two you are a referee. <strong>~ David Frost</strong>&nbsp;<br></p>
+                </div>
+            </div>
+            <p class="copyright">KVSOO © 2021</p>
+        </div>
+    </footer>
+    <script src="{{ url_for('static', filename='assets/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/match.js') }}"></script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block content %}
+<div style="border-radius: 30px;border: 6px solid var(--light);border-top-style: solid;padding: 10px;">
+    <div class="row">
+        <div class="col" style="margin: 5px;"><strong style="color: var(--light);">Date: {{ mtc.date }} - {{ mtc.hour }}&nbsp;</strong></div>
+    </div>
+    <div class="row">
+        <div class="col" style="margin: 5px;"><strong style="color: var(--light);">Division: {{ mtc.div }}</strong></div>
+    </div>
+    <div class="row">
+        <div class="col" style="margin: 5px;"><strong style="color: var(--light);">Home: {{ mtc.home }}</strong></div>
+    </div>
+    <div class="row">
+        <div class="col" style="margin: 5px;"><strong style="color: var(--light);">Away: {{ mtc.away }}</strong></div>
+    </div>
+    <div class="row">
+        <div class="col" style="margin-top: 20px;margin-right: 5px;margin-bottom: 5px;margin-left: 5px;"><strong style="color: var(--light);">Referee: {{ mtc.referee }}&nbsp;</strong></div>
+    </div>
+    <div class="row">
+        <div class="col" style="margin: 5px;"><strong style="color: var(--light);">Assistent1: {{ mtc.assistent1 }}</strong></div>
+    </div>
+    <div class="row">
+        <div class="col" style="margin: 5px;"><strong style="color: var(--light);">Assistent2: {{ mtc.assistent2 }}</strong></div>
+    </div>
+</div>
+{% endblock %}

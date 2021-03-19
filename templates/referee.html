@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1 style="color: var(--light);font-size: 30px;padding: 5px;border-bottom-width: 3px;border-bottom-style: solid;margin: 0px;"><strong>{{ vnaam }} {{ fnaam }}</strong></h1>
+<div class="col">
+    {% if matches %}
+        {%for match in matches%}
+        <div class="row align-items-center clickable" data-href="{{ url_for('match', vnaam=vnaam, fnaam=fnaam, date=match.date, hour=match.hour) }}" style="padding: 5px;border-top-style: none;border-top-color: var(--light);border-bottom: 3px solid var(--light) ;">
+            <div class="col-auto" style="text-align: left;"><strong style="color: var(--light);">{{ match.date + " " + match.hour }}</strong></div>
+            <div class="col-auto"><strong style="color: var(--light);">{{ match.home }}</strong></div>
+            <div class="col-auto"><strong style="color: var(--light);">-</strong></div>
+            <div class="col-auto"><strong style="color: var(--light);">{{ match.away }}</strong></div>
+        </div>
+        {%endfor%}
+    {% else %}
+        <div class="row justify-content-center align-items-center" style="padding: 5px;border-top-style: none;border-top-color: var(--light);border-bottom: 3px solid var(--light) ;">
+            <div class="col-auto text-center" style="text-align: center;"><strong style="color: var(--light);">No data to show</strong></div>
+        </div>
+    {% endif %}
+    <br/>
+</div>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+<form action="{{ url_for('referee') }}" method="post">
+    <div class="form-row text-center justify-content-center align-items-center">
+        <div class="col-auto text-left">
+            <div class="form-row">
+                <div class="col">
+                    <div style="padding: 15px;"><strong style="color: var(--light);margin-right: 20px;">First Name:</strong><input type="text" name="vnaam" class="form-control" style="color: var(--light);background: var(--dark);border-radius: 10px;border: 3px solid var(--light) ;" /></div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <div style="padding: 15px;"><strong style="color: var(--light);margin-right: 23px;">Last Name:</strong><input type="text" name="fnaam" class="form-control" style="color: var(--light);background: var(--dark);border-radius: 10px;border: 3px solid var(--light) ;" /></div>
+                </div>
+            </div>
+        </div>
+        <div class="col-auto text-left float-left align-self-center" style="padding: 0px;text-align: center;"><button class="btn btn-primary text-center" type="submit" style="width: 100px;margin-left: 15px;text-align: center;">Load</button></div>
+    </div>
+</form>
+{% endblock %}  

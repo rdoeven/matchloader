@@ -1,0 +1,53 @@
+DIV;DATE;HOUR;HOME;AWAY;STATUS;REFEREE;ASSISTANT-REFEREE1;ASSISTANT-REFEREE2;4THOFFICIAL;TYPE
+1A;19/03/2021;20:45;K.RC.Genk ;R.Standard de Liège ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+1A;20/03/2021;16:15;KV.RS.Waasland-SK.Beveren ;K.St.-Truidense VV. ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+1A;20/03/2021;18:30;R. Excel Mouscron ;KV.Oostende ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+1A;20/03/2021;20:45;K.AS.Eupen ;KV.Kortrijk ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+1A;21/03/2021;13:30;Club Brugge KV. A;R.Antwerp FC. ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+1A;21/03/2021;16:00;Yellow-Red KV.Mechelen ;Oud-Heverlee Leuven ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+1A;21/03/2021;18:15;R.SC.Anderlecht ;SV.Zulte Waregem ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+1A;21/03/2021;20:45;K.AA.Gent ;Cercle Brugge K.SV. ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+1B;19/03/2021;20:00;K.VC.Westerlo ;R.Union St.-Gilloise ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+1B;20/03/2021;20:45;Lierse Kempenzonen ;Lommel SK ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+1B;21/03/2021;16:00;F.C. Seraing ;R White Daring Molenbeek ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+1B;21/03/2021;20:00;Club Brugge KV. B;K.MSK.Deinze ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+DASU;20/03/2021;14:00;Club Brugge KV. A;R.Standard de Liège A;;De Cremer Viki;Yet To Be Assigned;Yet To Be Assigned;;CHP
+DASU;20/03/2021;14:00;SP du Pays de Charleroi A;Oud-Heverlee Leuven A;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+DASU;20/03/2021;14:00;SV.Zulte Waregem A;SC.Eendracht Aalst A;;Lanssens Caroline;De Vries Ella;Yet To Be Assigned;;CHP
+DASU;20/03/2021;14:00;FC.Fémina W.S. Woluwe A;K.RC.Genk A;;Letellier Anthony;Yet To Be Assigned;Yet To Be Assigned;;CHP
+DASU;20/03/2021;14:00;K.AA.Gent A;R.SC.Anderlecht A;;Van Meirvenne Irmgard;Houtthave Heidi;Yet To Be Assigned;;CHP
+DASU;27/03/2021;14:00;R.SC.Anderlecht A;FC.Fémina W.S. Woluwe A;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+DASU;27/03/2021;14:00;K.RC.Genk A;SV.Zulte Waregem A;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+DASU;27/03/2021;14:00;SC.Eendracht Aalst A;SP du Pays de Charleroi A;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+DASU;27/03/2021;14:00;Oud-Heverlee Leuven A;Club Brugge KV. A;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+DASU;27/03/2021;14:00;R.Standard de Liège A;K.AA.Gent A;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;CHP
+ISTE PLOEG/EQUIPE I;22/03/2021;12:00;K.AA.Gent A-team;R.SC.Anderlecht A-team;;Club;;;;FRG
+ISTE PLOEG/EQUIPE I;23/03/2021;14:00;Oud-Heverlee Leuven Mix A-kern;R.Union St.-Gilloise Mix A-kern;;Yet To Be Assigned;;;;FRG
+ISTE PLOEG/EQUIPE I;25/03/2021;11:00;Cercle Brugge K.SV. ;K.MSK.Deinze ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;FRG
+ISTE PLOEG/EQUIPE I;25/03/2021;11:30;KV.RS.Waasland-SK.Beveren ;SV.Zulte Waregem ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;FRG
+ISTE PLOEG/EQUIPE I;26/03/2021;10:30;K.VC.Westerlo ;Beerschot V.A. ;;Club;Club;Club;;FRG
+ISTE PLOEG/EQUIPE I;26/03/2021;11:00;R.Standard de Liège A;Belgium U21 U21;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;FRG
+ISTE PLOEG/EQUIPE I;26/03/2021;12:00;R.SC.Anderlecht ;KV.Kortrijk ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;FRG
+ISTE PLOEG/EQUIPE I;26/03/2021;14:00;Cercle Brugge K.SV. ;Club Brugge KV. ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;FRG
+ISTE PLOEG/EQUIPE I;30/03/2021;11:00;K.VC.Westerlo A;Belgium U21 U21;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;FRG
+ISTE PLOEG/EQUIPE I;31/03/2021;14:00;Oud-Heverlee Leuven Mix A kern;Lierse Kempenzonen Mix A kern;;Yet To Be Assigned;;;;FRG
+U21/U21;20/03/2021;14:00;K.RC.Genk ;R.SC.Anderlecht ;;Club;;;;FRG
+U21/U21;20/03/2021;14:00;Club Brugge KV. ;R.Standard de Liège ;;PRC;PRC;PRC;;FRG
+U21/U21;20/03/2021;15:00;R.Standard de Liège ;Yellow-Red KV.Mechelen ;;PRC;PRC;PRC;;FRG
+U21/U21;22/03/2021;19:00;K.St.-Truidense VV. ;R.Union St.-Gilloise ;;Club;;;;FRG
+U21/U21;22/03/2021;19:30;K.RC.Genk U21;R.SC.Anderlecht U21;;Club;;;;FRG
+U21/U21;23/03/2021;19:00;Yellow-Red KV.Mechelen ;Cercle Brugge K.SV. ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;FRG
+U21/U21;25/03/2021;19:00;K.AA.Gent U21;KV.Oostende U21;;Club;;;;FRG
+U21/U21;26/03/2021;11:00;Lierse Kempenzonen ;Yellow-Red KV.Mechelen ;;Club;;;;FRG
+U21/U21;26/03/2021;14:00;Yellow-Red KV.Mechelen ;Lommel SK ;;Yet To Be Assigned;Yet To Be Assigned;Yet To Be Assigned;;FRG
+U21/U21;27/03/2021;13:00;SP du Pays de Charleroi U21;K.St.-Truidense VV. U21;;PRC;;;;FRG
+U21/U21;27/03/2021;14:00;R.SC.Anderlecht ;Club Brugge KV. ;;PRC;PRC;PRC;;FRG
+U21/U21;27/03/2021;14:00;R.Standard de Liège ;K.RC.Genk ;;PRC;PRC;PRC;;FRG
+U21/U21;29/03/2021;19:00;K.AA.Gent U21;K.VC.Westerlo U21;;Club;;;;FRG
+U21/U21;29/03/2021;19:30;R.Standard de Liège ;K.RC.Genk ;;PRC;PRC;PRC;;FRG
+U21/U21;29/03/2021;20:00;Oud-Heverlee Leuven ;R.Union St.-Gilloise ;;Club;Club;Club;;FRG
+U21/U21;29/03/2021;20:00;R.SC.Anderlecht ;Yellow-Red KV.Mechelen ;;PRC;PRC;PRC;;FRG
+U21/U21;31/03/2021;18:00;R.Antwerp FC. b-team;K.AS.Eupen b-team;;Club;;;;FRG
+-19/-19;31/03/2021;19:30;K.FC Turnhout Postformatie;Lierse Kempenzonen Postformatie;;PRC;;;;FRG
+-14/-14;31/03/2021;17:00;R.SC.Anderlecht ;Sélection Provinciale du Hainaut U14;;PRC;;;;FRG
+-13A/-13A;31/03/2021;17:00;R.SC.Anderlecht ;Sélection Provinciale du Hainaut U14 Tard Mature;;Club;;;;FRG
