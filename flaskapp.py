@@ -14,7 +14,7 @@ def index():
 
 @app.route('/referee', methods=['POST'])
 def referee():
-  vnaam, fnaam = request.form['vnaam'].lower(),request.form['fnaam'].lower()
+  vnaam, fnaam = request.form['vnaam'].lower().strip() ,request.form['fnaam'].lower().strip()
   matches = [mtc.get_dict() for mtc in matchloader.get_matches(vnaam, fnaam)]
   return render_template("referee.html",vnaam=vnaam ,fnaam=fnaam, matches=matches)
 

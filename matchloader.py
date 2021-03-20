@@ -3,7 +3,7 @@ import csv
 import zipfile
 import urllib.request
 class Match:
-    def __init__(self, div, date, hour, home, away, status, referee, assistent1, assistent2, matchtype):
+    def __init__(self, div, date, hour, home, away, status, referee, assistent1, assistent2, referee4, matchtype):
         self.div = div
         self.date = date
         self.hour = hour
@@ -18,6 +18,7 @@ class Match:
         self.referee = referee
         self.assistent1 = assistent1
         self.assistent2 =assistent2
+        self.referee4=referee4
         self.matchtype = matchtype
 
     def getStatus(self):
@@ -35,6 +36,7 @@ class Match:
             "referee":self.referee, 
             "assistent1":self.assistent1,
             "assistent2":self.assistent2,
+            "referee4":self.referee4,
             "matchtype":self.matchtype,
             "start":self.getStartString(),
             "end":self.getEndString()
@@ -64,8 +66,8 @@ def get_matches(vnaam, fnaam):
         with open(f"static/data/{csvfile}", errors='ignore') as infile:
             csv_reader = csv.reader(infile, delimiter=';')
             for row in csv_reader:
-                if naam in [nm.lower() for nm in row[6:9]]:
-                    matches.append(Match(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[10]))
+                if naam in [nm.lower() for nm in row[6:10]]:
+                    matches.append(Match(row[0], row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[9], row[10]))
     return matches
 
 def update_csv():
