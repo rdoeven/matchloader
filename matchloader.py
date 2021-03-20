@@ -35,8 +35,21 @@ class Match:
             "referee":self.referee, 
             "assistent1":self.assistent1,
             "assistent2":self.assistent2,
-            "matchtype":self.matchtype
+            "matchtype":self.matchtype,
+            "start":self.getStartString(),
+            "end":self.getEndString()
         }
+    
+    def getStartString(self):
+        hr,mn = [int(x) for x in self.hour.split(":")]
+        d,m,y = [int(x) for x in self.date.split("/")]
+        return f"{d}-{m}-{y} {hr}:{mn}"
+
+    def getEndString(self):
+        hr,mn = [int(x) for x in self.hour.split(":")]
+        d,m,y = [int(x) for x in self.date.split("/")]
+        return f"{d}-{m}-{y} {min([hr+3,23])}:{mn}"
+
 
     def __str__(self):
         return f"{self.date} {self.hour} {self.home} - {self.away}"

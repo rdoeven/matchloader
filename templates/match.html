@@ -22,5 +22,17 @@
     <div class="row">
         <div class="col" style="margin: 5px;"><strong style="color: var(--light);">Assistent2: {{ mtc.assistent2 }}</strong></div>
     </div>
+    <div class="row" style="margin: 10px;">
+        <div title="Add to Calendar" class="addeventatc">
+            Add to Calendar
+            <span class="start">{{ mtc.start }}</span>
+            <span class="end">{{ mtc.end }}</span>
+            <span class="timezone">Europe/Belgium</span>
+            <span class="title">{{ mtc.home }} - {{ mtc.away }}</span>
+            <span class="description"></span>
+            <span class="location"></span>
+        </div>
+    </div>
 </div>
+<br/>
 {% endblock %}
