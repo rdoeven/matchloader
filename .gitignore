@@ -1,3 +1,5 @@
 .env
 common.md
 __pycache__
+static/data/*
+static/zips/*

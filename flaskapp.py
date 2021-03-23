@@ -9,6 +9,10 @@ app = Flask(__name__)
 def index():
   #if time.time() - os.stat('static/data/wvldesdownP.csv').st_mtime > timedelta(hours=6).total_seconds():
   #  matchloader.update_csv()
+  if not os.path.exists("./static/data/"):
+    os.makedirs("./static/data/")
+  if not os.path.exists("./static/zips/"):
+    os.makedirs("./static/zips/")
   matchloader.update_csv()
   return render_template("index.html")
 
